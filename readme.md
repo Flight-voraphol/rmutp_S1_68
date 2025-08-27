@@ -38,6 +38,7 @@ npx prisma init --datasource-provider postgresql
 
 ### Update Schema
 
+### Normal
 1. Update some schema
 2. Run this command `npx prisma generate`
    2.1 `npx prisma studio` working
@@ -47,7 +48,8 @@ npx prisma init --datasource-provider postgresql
    3.2 connect db name table is last change
 
 ### Normal
-
+## Run this project
 ```bash
 npx prisma generate
+npm run build
 ```
