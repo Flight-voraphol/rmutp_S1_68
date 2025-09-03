@@ -1,0 +1,13 @@
+
+###GET all profiles
+###curl http://localhost:3000/profile,
+GET http://localhost:3000/profile
+
+###create new profile,
+###curl -X POST http://localhost:3000/profile,
+POST http://localhost:3000/profile
+Content-Type: application/json
+{
+    "username": "demo",
+    "password": "1234",
+}
